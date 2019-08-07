@@ -1,0 +1,7 @@
+C:\Users\Lenovo\Documents\VS Practice\Anonymas type\Anonymas type\bin\Debug\Anonymas type.exe.config
+C:\Users\Lenovo\Documents\VS Practice\Anonymas type\Anonymas type\bin\Debug\Anonymas type.exe
+C:\Users\Lenovo\Documents\VS Practice\Anonymas type\Anonymas type\bin\Debug\Anonymas type.pdb
+C:\Users\Lenovo\Documents\VS Practice\Anonymas type\Anonymas type\obj\Debug\Anonymas type.csprojAssemblyReference.cache
+C:\Users\Lenovo\Documents\VS Practice\Anonymas type\Anonymas type\obj\Debug\Anonymas type.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Documents\VS Practice\Anonymas type\Anonymas type\obj\Debug\Anonymas type.exe
+C:\Users\Lenovo\Documents\VS Practice\Anonymas type\Anonymas type\obj\Debug\Anonymas type.pdb

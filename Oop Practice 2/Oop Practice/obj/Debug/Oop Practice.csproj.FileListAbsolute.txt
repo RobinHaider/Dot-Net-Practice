@@ -1,0 +1,11 @@
+C:\Users\Lenovo\source\repos\Practice\Oop Practice\Oop Practice\bin\Debug\Oop Practice.exe.config
+C:\Users\Lenovo\source\repos\Practice\Oop Practice\Oop Practice\bin\Debug\Oop Practice.exe
+C:\Users\Lenovo\source\repos\Practice\Oop Practice\Oop Practice\bin\Debug\Oop Practice.pdb
+C:\Users\Lenovo\source\repos\Practice\Oop Practice\Oop Practice\obj\Debug\Oop Practice.csprojAssemblyReference.cache
+C:\Users\Lenovo\source\repos\Practice\Oop Practice\Oop Practice\obj\Debug\Oop Practice.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\Practice\Oop Practice\Oop Practice\obj\Debug\Oop Practice.exe
+C:\Users\Lenovo\source\repos\Practice\Oop Practice\Oop Practice\obj\Debug\Oop Practice.pdb
+C:\Users\Lenovo\Documents\VS Practice\Oop Practice 2\Oop Practice\obj\Debug\Oop Practice.csprojAssemblyReference.cache
+C:\Users\Lenovo\Documents\VS Practice\Oop Practice 2\Oop Practice\obj\Debug\Oop Practice.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Documents\VS Practice\Oop Practice 2\Oop Practice\obj\Debug\Oop Practice.exe
+C:\Users\Lenovo\Documents\VS Practice\Oop Practice 2\Oop Practice\obj\Debug\Oop Practice.pdb
