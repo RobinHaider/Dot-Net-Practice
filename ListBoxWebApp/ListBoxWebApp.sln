@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29123.88
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListBoxWebApp", "ListBoxWebApp\ListBoxWebApp.csproj", "{6ED086FB-0ED9-434B-9F42-3E74E2382535}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6ED086FB-0ED9-434B-9F42-3E74E2382535}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ED086FB-0ED9-434B-9F42-3E74E2382535}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ED086FB-0ED9-434B-9F42-3E74E2382535}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ED086FB-0ED9-434B-9F42-3E74E2382535}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E4E218BE-8ABE-42A1-A530-8EF6FB0A1C80}
+	EndGlobalSection
+EndGlobal
