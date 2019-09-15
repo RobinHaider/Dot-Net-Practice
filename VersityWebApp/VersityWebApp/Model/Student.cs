@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace UniversityWebApp
+namespace VersityWebApp.Model
 {
     public class Student
     {
@@ -12,7 +12,6 @@ namespace UniversityWebApp
         public string Name { get; set; }
         public string Contact { get; set; }
         public string Email { get; set; }
-        public string Department { get; set; }
-
+        public int DepartmentId { get; set; }
     }
 }

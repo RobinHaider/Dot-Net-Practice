@@ -26,6 +26,11 @@
                     </td>
                 </tr>
                 <tr>
+                    <td colspan="2">
+                        <asp:HiddenField ID="idHiddenField" runat="server" />
+                    </td>
+                </tr>
+                <tr>
                     <td>
                         <asp:Label ID="nameLabel" runat="server" Text="Name"></asp:Label>
                     </td>

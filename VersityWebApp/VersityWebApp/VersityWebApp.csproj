@@ -7,16 +7,16 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{167DCD5D-76FA-4385-A683-C104748ECB60}</ProjectGuid>
+    <ProjectGuid>{7E5D0049-CAFD-4819-B826-CE1FE1765D58}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>UniversityWebApp</RootNamespace>
-    <AssemblyName>UniversityWebApp</AssemblyName>
+    <RootNamespace>VersityWebApp</RootNamespace>
+    <AssemblyName>VersityWebApp</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
-    <IISExpressSSLPort>44366</IISExpressSSLPort>
+    <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
@@ -67,13 +67,27 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="UI\DeleteConfirmationUI.aspx" />
     <Content Include="UI\IndexUI.aspx" />
     <Content Include="UI\UpdateStudentUI.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BLL\DepartmentManager.cs" />
     <Compile Include="BLL\StudentManager.cs" />
+    <Compile Include="Gateway\DepartmentGateway.cs" />
     <Compile Include="Gateway\StudentGateway.cs" />
+    <Compile Include="Model\Department.cs" />
+    <Compile Include="Model\Student.cs" />
+    <Compile Include="Model\StudentWithDepartmentVM.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\DeleteConfirmationUI.aspx.cs">
+      <DependentUpon>DeleteConfirmationUI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\DeleteConfirmationUI.aspx.designer.cs">
+      <DependentUpon>DeleteConfirmationUI.aspx</DependentUpon>
+    </Compile>
     <Compile Include="UI\IndexUI.aspx.cs">
       <DependentUpon>IndexUI.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -81,8 +95,6 @@
     <Compile Include="UI\IndexUI.aspx.designer.cs">
       <DependentUpon>IndexUI.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Model\Student.cs" />
     <Compile Include="UI\UpdateStudentUI.aspx.cs">
       <DependentUpon>UpdateStudentUI.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -114,9 +126,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>12158</DevelopmentServerPort>
+          <DevelopmentServerPort>4374</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>https://localhost:44366/</IISUrl>
+          <IISUrl>http://localhost:4374/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

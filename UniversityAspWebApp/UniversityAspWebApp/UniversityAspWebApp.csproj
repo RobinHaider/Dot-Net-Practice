@@ -7,16 +7,16 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{167DCD5D-76FA-4385-A683-C104748ECB60}</ProjectGuid>
+    <ProjectGuid>{25A4C0F8-9980-4EEB-83FE-9D069328661E}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>UniversityWebApp</RootNamespace>
-    <AssemblyName>UniversityWebApp</AssemblyName>
+    <RootNamespace>UniversityAspWebApp</RootNamespace>
+    <AssemblyName>UniversityAspWebApp</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
-    <IISExpressSSLPort>44366</IISExpressSSLPort>
+    <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
@@ -67,29 +67,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="UI\IndexUI.aspx" />
-    <Content Include="UI\UpdateStudentUI.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BLL\StudentManager.cs" />
-    <Compile Include="Gateway\StudentGateway.cs" />
-    <Compile Include="UI\IndexUI.aspx.cs">
-      <DependentUpon>IndexUI.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="UI\IndexUI.aspx.designer.cs">
-      <DependentUpon>IndexUI.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Model\Student.cs" />
-    <Compile Include="UI\UpdateStudentUI.aspx.cs">
-      <DependentUpon>UpdateStudentUI.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="UI\UpdateStudentUI.aspx.designer.cs">
-      <DependentUpon>UpdateStudentUI.aspx</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -100,7 +81,6 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
@@ -114,9 +94,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>12158</DevelopmentServerPort>
+          <DevelopmentServerPort>12360</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>https://localhost:44366/</IISUrl>
+          <IISUrl>http://localhost:12360/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
